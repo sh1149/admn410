@@ -1,0 +1,66 @@
+*{ margin:0; padding:0;}
+body,p{ font-size:12px; border:none;font-family:Microsoft yahei,Arial;}
+a{ font-size:12px; color:#000; text-decoration:none; border:none; padding:0; margin:0;}
+a:hover{ color:;}
+img{ border:0; margin:0; padding:0;vertical-align: middle;}
+ul,li{ list-style:none; border:0; margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6{ font-weight:normal; font-size:12px; display:block;}
+table,tr,td{ border-spacing:0;}
+
+.fl{float:left;}
+.fr{float:right;}
+.clearfix{*zoom:1;}
+.clearfix:before,.clearfix:after{display:table; content:""; line-height:0;}
+.clearfix:after{clear:both;}
+
+.clear{ clear:both;}
+.main{width:1200px; margin:0 auto; background:rgba(255,255,255,0.8);}
+body{ background:url(../images/bj.jpg) no-repeat;}
+
+.header{width:100%; overflow:hidden;}
+.logo{width:142px; float:left;padding:10px 30px;}
+.nav{ width:990px; float:right; margin-top:34px;}
+.nav a{ font-size:16px;line-height:45px; font-weight: inherit; padding:10px 18px;}
+.nav a:hover{ background:#990000; color:#FFF; border-radius:0 30px;}
+.nav a.on{ background:#990000; color:#FFF; border-radius:0 30px;}
+
+.banner{ width:100%; overflow:hidden;width:1180px; margin:0 auto;}
+.title{ width:100%; overflow:hidden; padding:10px 0; margin-top:10px;}
+.title h1{ font-size:16px; background:#990000; width:1160px; margin:0 auto; line-height:40px; color:#FFFFFF; padding-left:20px; font-weight:bold;}
+p{ font-size:16px; color:#333333; line-height:30px; margin-top:10px; padding:0 10px;}
+
+.tp{ width:100%; overflow:hidden; padding-bottom:40px;}
+.foot{ width:1200px; margin:0 auto; padding:15px 0; text-align: center; color:#333333;  font-size:16px;}
+.foot .btn{width:100%; text-align:center;}
+.foot .btn a{display:inline-block; width:30px; height:30px; overflow:hidden; margin-left:15px;}
+.foot .btn img{width:30px; height:auto;}
+
+h4{ font-size:16px; color:#990000; padding-top:10px; padding-left:20px; font-weight:bold;}
+
+.list{ width:100%; overflow:hidden; margin-top:30px; padding-bottom:50px;}
+.list li{ width:360px; margin-left:30px;float:left;}
+.list li em{ display:block; overflow:hidden;}
+.list li em img{ width:100%; height:200px;}
+.list li h1{ padding:10px 0 5px; font-size:18px; color:#000000; overflow:hidden;}
+.list li p1{ color:#000000; font-size:14px; color:#666666; line-height:26px; text-align:left; padding-top:30px;}
+.list li:hover h1{ color:#990000;}
+.list li:hover p1{ color:#990000;}
+
+/*our team*/
+.team{width:100%; margin:40px auto;}
+.team li{float:left; width:360px; background:#fff; box-shadow:0 0 10px #ccc; margin:0 0 20px 30px;}
+.team li .pic{width:360px; height:420px; overflow:hidden;}
+.team li .pic img{display:block; width:360px; height:auto;}
+.team li .introduce span{padding-right:5px;}
+
+
+
+/*policies*/
+.pc-con{width:96%; margin:auto;}
+.pc-con span{padding-right:10px; color:#000;}
+
+
+
+
+
+
